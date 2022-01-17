@@ -26,9 +26,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>Word of mouth</fullName>
-        <default>true</default>
-        <label>Word of mouth</label>
-    </standardValue>
 </StandardValueSet>
