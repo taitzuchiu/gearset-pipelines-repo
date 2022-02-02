@@ -228,6 +228,18 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>ACCOUNT.ADDRESS2_ZIP</fields>
+        <fields>ACCOUNT.ADDRESS2_COUNTRY</fields>
+        <fields>SLAExpirationDate__c</fields>
+        <fields>SLASerialNumber__c</fields>
+        <fields>UpsellOpportunity__c</fields>
+        <fields>ACCOUNT.ADDRESS1_CITY</fields>
+        <profileName>Analytics Cloud Integration User</profileName>
+    </profileSearchLayouts>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
