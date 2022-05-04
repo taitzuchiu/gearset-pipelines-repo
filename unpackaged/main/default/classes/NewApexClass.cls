@@ -1,4 +1,4 @@
-// Takes a Fahrenheit temperature and returns the Celsius equivalent.
+// help please run merge conflict check
 public class NewApexClass {
     // Takes a Fahrenheit temperature and returns the Celsius equivalent. I've changed this line
     // Add something else for good measure
