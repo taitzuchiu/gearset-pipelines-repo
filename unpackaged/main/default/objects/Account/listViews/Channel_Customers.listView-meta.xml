@@ -18,10 +18,5 @@
         <operation>contains</operation>
         <value>United</value>
     </filters>
-    <filters>
-        <field>ACCOUNT.TYPE</field>
-        <operation>equals</operation>
-        <value>Customer - Channel</value>
-    </filters>
     <label>Channel Customers</label>
 </ListView>
