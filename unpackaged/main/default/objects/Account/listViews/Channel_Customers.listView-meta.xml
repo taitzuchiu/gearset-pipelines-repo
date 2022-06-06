@@ -8,10 +8,5 @@
     <columns>ACCOUNT.TYPE</columns>
     <columns>CORE.USERS.ALIAS</columns>
     <filterScope>Mine</filterScope>
-    <filters>
-        <field>ACCOUNT.TYPE</field>
-        <operation>equals</operation>
-        <value>Customer - Direct,Customer - Channel</value>
-    </filters>
     <label>Channel Customers</label>
 </ListView>
