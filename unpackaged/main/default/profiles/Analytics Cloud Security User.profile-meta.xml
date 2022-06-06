@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
@@ -21,6 +22,11 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Content</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__DataManager</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
@@ -3260,6 +3266,9 @@
         <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SkillRequirement-Skill Requirement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3288,6 +3297,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStore-Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
@@ -3679,7 +3691,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Workspace</tab>
-        <visibility>DefaultOff</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-home</tab>

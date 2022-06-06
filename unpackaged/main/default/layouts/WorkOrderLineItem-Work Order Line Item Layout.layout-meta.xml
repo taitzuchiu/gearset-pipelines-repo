@@ -73,11 +73,22 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Custom Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>WorkPlans</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>WorkSteps</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
