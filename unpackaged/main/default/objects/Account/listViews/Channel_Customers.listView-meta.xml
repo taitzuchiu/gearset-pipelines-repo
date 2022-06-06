@@ -9,6 +9,11 @@
     <columns>CORE.USERS.ALIAS</columns>
     <filterScope>Mine</filterScope>
     <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Customer - Channel</value>
+    </filters>
+    <filters>
         <field>ACCOUNT.NAME</field>
         <operation>contains</operation>
         <value>United</value>
