@@ -17,7 +17,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>SiteConflict</field>
+                <field>SiteConflict_RenamingThisGuy</field>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
