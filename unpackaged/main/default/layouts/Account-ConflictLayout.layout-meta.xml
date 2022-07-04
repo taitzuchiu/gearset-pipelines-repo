@@ -21,7 +21,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Site</field>
+                <field>SiteConflictRename</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
