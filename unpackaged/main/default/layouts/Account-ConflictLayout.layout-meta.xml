@@ -12,6 +12,10 @@
                 <field>NameConflict2BeepBoop</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Required</behavior>
+                <field>Name</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AccountNumber</field>
             </layoutItems>
