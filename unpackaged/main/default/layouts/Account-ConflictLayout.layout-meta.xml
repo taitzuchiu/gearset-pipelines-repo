@@ -9,7 +9,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>NameConflict1</field>
+                <field>NameConflict2BeepBoop</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
