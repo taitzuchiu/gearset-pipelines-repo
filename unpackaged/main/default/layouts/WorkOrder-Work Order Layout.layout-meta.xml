@@ -97,9 +97,9 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Custom Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
@@ -109,6 +109,18 @@
         <fields>Priority</fields>
         <fields>Status</fields>
     </miniLayout>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>ExecutionOrder</fields>
+        <fields>WorkOrderLineItem</fields>
+        <relatedList>WorkPlans</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>WorkSteps</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>Name</fields>
         <fields>Asset</fields>
