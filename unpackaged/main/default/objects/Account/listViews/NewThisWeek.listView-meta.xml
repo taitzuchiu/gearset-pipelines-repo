@@ -7,5 +7,10 @@
         <operation>equals</operation>
         <value>THIS_WEEK</value>
     </filters>
-    <label>New This Week</label>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Customer - Channel</value>
+    </filters>
+    <label>New This Week Yeah</label>
 </ListView>
