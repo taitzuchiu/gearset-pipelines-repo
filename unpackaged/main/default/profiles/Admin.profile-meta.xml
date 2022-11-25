@@ -4382,6 +4382,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseReturnOrder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>TransferAnyEntity</name>
     </userPermissions>
     <userPermissions>
@@ -4389,16 +4393,12 @@
         <name>TransferAnyLead</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>UseAddOrderItemSummaryAPIs</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>UseOmnichannelInventoryAPIs</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>UseReturnOrder</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
