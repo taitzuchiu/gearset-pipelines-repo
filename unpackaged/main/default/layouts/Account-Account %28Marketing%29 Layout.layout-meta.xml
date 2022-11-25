@@ -20,11 +20,11 @@
                 <field>AccountNumber</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Site</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required2</behavior>
+                <behavior>Required</behavior>
                 <field>ParentId</field>
             </layoutItems>
         </layoutColumns>
