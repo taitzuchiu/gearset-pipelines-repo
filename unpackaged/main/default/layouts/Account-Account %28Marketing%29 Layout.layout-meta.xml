@@ -16,7 +16,7 @@
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>ParentId</field>
             </layoutItems>
             <layoutItems>
@@ -24,7 +24,7 @@
                 <field>AccountNumber</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Site</field>
             </layoutItems>
         </layoutColumns>
