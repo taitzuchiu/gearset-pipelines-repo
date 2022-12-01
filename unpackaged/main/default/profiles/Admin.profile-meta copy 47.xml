@@ -3,7 +3,7 @@
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <visible>true</visible>
-        <default>false</default>
+        <default>true</default>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
