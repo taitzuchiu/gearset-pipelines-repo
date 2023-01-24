@@ -354,7 +354,8 @@
         <fields>STATUS</fields>
         <fields>FULL_NAME</fields>
         <fields>TITLE</fields>
-        <fields>FIRST_NAME</fields>
+        <fields>NewField1</fields>
+        <fields>NewField2</fields>
         <fields>LAST_NAME</fields>
         <fields>COMPANY</fields>
         <relatedList>RelatedCampaignMemberList</relatedList>
