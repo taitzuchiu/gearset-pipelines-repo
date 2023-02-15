@@ -13,4 +13,11 @@
         <protected>false</protected>
         <shortDescription>Automatic Quote</shortDescription>
     </labels>
+    <labels>
+        <fullName>some other label</fullName>
+        <value>test</value>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>yea</shortDescription>
+    </labels>
 </CustomLabels>
