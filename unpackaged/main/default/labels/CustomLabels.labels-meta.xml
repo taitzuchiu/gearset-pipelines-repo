@@ -13,4 +13,11 @@
         <protected>false</protected>
         <shortDescription>Automatic Quote</shortDescription>
     </labels>
+    <labels>
+        <fullName>my new custom label or whatever</fullName>
+        <value>test</value>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>beepo</shortDescription>
+    </labels>
 </CustomLabels>
