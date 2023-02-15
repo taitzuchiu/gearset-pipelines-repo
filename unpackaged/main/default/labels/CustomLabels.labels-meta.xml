@@ -20,4 +20,11 @@
         <protected>false</protected>
         <shortDescription>yea</shortDescription>
     </labels>
+    <labels>
+        <fullName>shoupld be ok now</fullName>
+        <value>test</value>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>yea</shortDescription>
+    </labels>
 </CustomLabels>
