@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
         <fullName>quoteManual</fullName>
         <value>This is a manual quote.</value>
@@ -26,5 +27,12 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>yea</shortDescription>
+    </labels>
+    <labels>
+        <fullName>my new custom label or whatever</fullName>
+        <value>test</value>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>beepo</shortDescription>
     </labels>
 </CustomLabels>
