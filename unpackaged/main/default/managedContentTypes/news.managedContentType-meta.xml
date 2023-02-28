@@ -33,5 +33,12 @@
         <nodeType>MTEXT</nodeType>
         <placeholderText>Enter a summary or short description of your post...</placeholderText>
     </managedContentNodeTypes>
+    <managedContentNodeTypes>
+        <isLocalizable>true</isLocalizable>
+        <isRequired>false</isRequired>
+        <nodeLabel>whareaer</nodeLabel>
+        <nodeName>boewfefdy</nodeName>
+        <nodeType>RTE</nodeType>
+    </managedContentNodeTypes>
     <masterLabel>News</masterLabel>
 </ManagedContentType>
