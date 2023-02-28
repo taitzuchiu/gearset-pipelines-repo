@@ -11,6 +11,13 @@
                         </valueListItems>
                         <valueListItems>
                             <value>Delete</value>
+                            <visibilityRule>
+                                <criteria>
+                                    <leftValue>{!$User.Profile.Name}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>System Administrator</rightValue>
+                                </criteria>
+                            </visibilityRule>
                         </valueListItems>
                         <valueListItems>
                             <value>Account.New_Opportunity</value>
@@ -203,7 +210,7 @@
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
-        <name>sidebar</name>
+        <name>sidebar2</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Account Record Page</masterLabel>
