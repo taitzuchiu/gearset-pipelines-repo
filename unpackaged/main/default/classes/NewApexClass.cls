@@ -1,5 +1,5 @@
 public class NewApexClass {
-    // Takes a Fahrenheit temperature and returns the Celsius equivalent. environment-change-21
+    // Takes a Fahrenheit temperature and returns the Celsius equivalent. environment-change-22
     public static Decimal FahrenheitToCelsius(Decimal fh) {
         Decimal cs = (fh - 32) * 5/9;
         return cs.setScale(3);
