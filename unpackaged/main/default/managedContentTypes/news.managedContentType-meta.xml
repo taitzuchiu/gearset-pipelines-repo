@@ -35,10 +35,10 @@
     </managedContentNodeTypes>
     <managedContentNodeTypes>
         <isLocalizable>true</isLocalizable>
-        <isRequired>false</isRequired>
-        <nodeLabel>whareaer</nodeLabel>
-        <nodeName>boewfefdy</nodeName>
-        <nodeType>RTE</nodeType>
+        <isRequired>true</isRequired>
+        <nodeLabel>newnodelabel</nodeLabel>
+        <nodeName>newnodelabel</nodeName>
+        <nodeType>NAMEFIELD</nodeType>
     </managedContentNodeTypes>
     <masterLabel>News</masterLabel>
 </ManagedContentType>
