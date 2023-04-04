@@ -1,5 +1,5 @@
 public class NewApexClass {
-    // Takes a Fahrenheit temperature and returns the Celsius equivalent. gpg-testingfsdbfweuyroiwaenvlkddsfsdfsdf
+    // Takes a Fahrenheit temperature and returns the Celsius equivalent. gpg-testingfsdbfweuyroiwaenvlkddsfsdfsdfsdfsdf
     public static Decimal FahrenheitToCelsius(Decimal fh) {
         Decimal cs = (fh - 32) * 5/9;
         return cs.setScale(3);
