@@ -3780,6 +3780,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>WorkDotComUserPerm</name>
+        <name>WorkDotComUserPerm-hotfix</name>
     </userPermissions>
 </Profile>
