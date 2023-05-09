@@ -356,7 +356,8 @@
         <fields>TITLE</fields>
         <fields>FIRST_NAME</fields>
         <fields>LAST_NAME</fields>
-        <fields>COMPANY</fields>
+        <fields>RelatedCampaignMemberList.NewField1</fields>
+        <fields>NewField2</fields>
         <relatedList>RelatedCampaignMemberList</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

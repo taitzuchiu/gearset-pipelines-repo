@@ -8,7 +8,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>NickName</field>
+                <field>NickName Environment Change</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
