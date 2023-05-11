@@ -1,1 +1,1 @@
-print "review is rude"
+print "bad pytohn;
