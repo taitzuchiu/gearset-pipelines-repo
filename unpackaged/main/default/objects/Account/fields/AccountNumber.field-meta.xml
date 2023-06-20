@@ -13,7 +13,7 @@
         <picklistValues>
             <picklist>Bar</picklist>
             <element>
-                <fullName>value 2</fullName>
+                <fullName>value 2 changed in feature</fullName>
                 <default>false</default>
             </element>
         </picklistValues>
