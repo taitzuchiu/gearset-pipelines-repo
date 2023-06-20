@@ -14,7 +14,7 @@
             <picklist>Bar</picklist>
             <element>
                 <fullName>value 2 changed in feature</fullName>
-                <default>false</default>
+                <default>sdfsdfdsfsdfsdf e</default>
             </element>
         </picklistValues>
     </recordTypes>
