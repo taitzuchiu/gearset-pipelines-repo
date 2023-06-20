@@ -13,8 +13,8 @@
         <picklistValues>
             <picklist>Bar</picklist>
             <element>
-                <fullName>value 2</fullName>
-                <default>false</default>
+                <fullName>value 2 changed in feature</fullName>
+                <default>lies! in the target</default>
             </element>
         </picklistValues>
     </recordTypes>
