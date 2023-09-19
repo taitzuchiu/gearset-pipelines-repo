@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Draft_New_Business</fullName>
     <active>true</active>
@@ -60,6 +60,17 @@
             <default>false</default>
         </values>
     </picklistValues>
+        <picklistValues>
+            <picklist>BrokerageActivated__c</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Not Activated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     <picklistValues>
         <picklist>BrokeragePaymentCountry__c</picklist>
         <values>
@@ -1102,6 +1113,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>IPZ Hub</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>M%26A</fullName>
             <default>false</default>
         </values>
@@ -1183,6 +1198,300 @@
             <default>false</default>
         </values>
     </picklistValues>
+        <picklistValues>
+            <picklist>CloseAs__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Marketed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submission Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undesirable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ClosureReason__c</picklist>
+            <values>
+                <fullName>CR1IJ4MYMMFDF8SY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR2ZWSX3PIH3Q3RD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR3D1DCVPTTCRLIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR3JHMN41CJURW5A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR3NL86T4MAYTJ2G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR4FUEDI9PLWKROJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR5M4GC82J9PZVJ8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR6H64Q6A6SF5ROD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR885TKE484LUNNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR89BA6Y1JGY7Z4D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR8GCH9BFHAFAFXB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR8TMXBI5K5WY2P9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR8VXX25PGXE429A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR8X1OCKB6YVALK3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR90291N62WHZP1T</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR9SW1FRD44RQCLB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CR9Z5P0Y4IRBZN0Z</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRB343ANUBMGZO7E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRBQBB8XSTBF1NVP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRCEXCEQDNY4G3HQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRCHAW2NOYQ1GM32</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRCKE5CCHE3M32Q9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRCSWC74DDIL7N7G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRCW00GQV1IT9NMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRDZZU9H35YRN1MK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRFF3WJG27BW5E04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRGHFJHLXP4OMA04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRGND6J6U67O8D0S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRGZC2TOONFXNC95</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRHZX9FW963LRZMK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRI5Y89LYNNAB1YX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRIJX41ZKC04ZYPK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRIWG62W72DQ0OQ6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRJUNPWXIPLNOE9F</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRK191TP3Q9RCL3F</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRKT9G5CP6JTNZQZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRL2VZXZ29KC0FSK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRLDMHIFUOFC4WVP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRMICOIVAAYJYQPY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRMIMM27RK9O0NYK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRN0I5U711UO342S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRN2LZEY1H6E1RAW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRNKOICV9IYZ6KDH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRNLRGNVUTQTHG0B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CROECMSMM1YJDL9V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CROFNU6HIS69SQ6X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CROM3QRM0PWQMQG5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRPLEFIZEKX2TKXG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRQZU3OM6W53YOWS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRR8N17Y3JNPD242</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRRC5SNT2GD5Q4RM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRRE73JK71MZEVAJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRRIWIA34XO6700V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRSAJFEH3QQESMHO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRSNY5B15M0UIOX1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRUESABSD4XWQ379</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRUO0CM157LIAW6S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRUWQN92W7LPDNPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRV18NNS9E7W2RNL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRVT6PTZE0MH0FW2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRWG5O8GJIYDMJQ1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRXOYG23XQTDQK2N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRXVM7QXLCARYICI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRYTS17RH2HTKBNE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRZ53TUVOKDP5E0O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CRZRU2GB16ZCLXQ3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     <picklistValues>
         <picklist>CoReinsured__c</picklist>
         <values>
@@ -2288,6 +2597,33 @@
             <default>false</default>
         </values>
     </picklistValues>
+        <picklistValues>
+            <picklist>DifferenceinPrice__c</picklist>
+            <values>
+                <fullName>%3C%3D5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3E10%25%3C%3D20%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3E20%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3E5%25%3C%3D10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Awaiting UW Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Broker would not say</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     <picklistValues>
         <picklist>DeclinedReason__c</picklist>
         <values>
@@ -2749,17 +3085,6 @@
         </values>
         <values>
             <fullName>OFYZ13AL144IZDVM</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>LocationsDatabaseUpdateNeeded__c</picklist>
-        <values>
-            <fullName>No</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Yes</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -3890,21 +4215,6 @@
         </values>
         <values>
             <fullName>Yes</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Role__c</picklist>
-        <values>
-            <fullName>905880000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>905880001</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>905880002</fullName>
             <default>false</default>
         </values>
     </picklistValues>
