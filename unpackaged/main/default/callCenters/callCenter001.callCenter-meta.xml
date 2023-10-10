@@ -76,5 +76,25 @@
         <label>Dialing Options</label>
         <name>DialingOptions</name>
     </sections>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>externalstatus1</externalStatus>
+        <servicePresenceStatus>admin</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>externalstatus2</externalStatus>
+        <servicePresenceStatus>lunch</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>externalstatus3</externalStatus>
+        <servicePresenceStatus>teabreak</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>externalstatus4</externalStatus>
+        <servicePresenceStatus>supper</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>externalstatus5</externalStatus>
+        <servicePresenceStatus>gelato</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
     <version>4</version>
 </CallCenter>
