@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyNewAccountCleanInfoField</fullName>
+    <trackFeedHistory>false</trackFeedHistory>
+    <recordTypes>
+        <picklistValues>
+            <picklist>Something</picklist>
+            <element>
+                <fullName>value 1</fullName>
+                <default>false</default>
+            </element>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Else</picklist>
+            <element>
+                <fullName>value 2</fullName>
+                <default>true</default>
+            </element>
+        </picklistValues>
+    </recordTypes>
+</CustomField>
